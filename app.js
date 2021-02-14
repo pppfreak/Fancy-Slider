@@ -101,16 +101,7 @@ const createSlider = () => {
 
 // suggestion part under the slider
 
-const suggestionImage = () => {
-    const before = document.getElementById('suggestion').innerHTML;
-    console.log(before);
-    const newdiv = document.createElement('div');
-    newdiv.innerHTML = '';
-    const sliderID = document.getElementById('sliders');
-    newdiv.appendChild(before);
-    sliderID.appendChild(newdiv);
 
-}
 
 
 // change slider index 
